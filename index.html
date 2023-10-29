@@ -17,6 +17,8 @@
               id="day-input"
               name="day-input"
               placeholder="DD"
+              minlength="1"
+              maxlength="2"
             />
             <p id="error-message">This field is required</p>
           </div>
@@ -27,6 +29,8 @@
               id="month-input"
               name="month-input"
               placeholder="MM"
+              minlength="1"
+              maxlength="2"
             />
             <p id="error-message">This field is required</p>
           </div>
@@ -37,6 +41,8 @@
               id="year-input"
               name="year-input"
               placeholder="YYYY"
+              minlength="4"
+              maxlength="4"
             />
             <p id="error-message">This field is required</p>
           </div>
@@ -44,12 +50,14 @@
       </div>
       <div class="separator">
         <div class="line"></div>
-        <a href=""><img src="./assets/images/icon-arrow.svg" alt="" /></a>
+        <a id="image-button" href="#" onclick="age()">
+          <img src="./assets/images/icon-arrow.svg" alt="" />
+        </a>
       </div>
       <div class="result">
-        <p><span id="years-result">-- </span>years</p>
-        <p><span id="months-result">-- </span>months</p>
-        <p><span id="days-result">-- </span>days</p>
+        <p><span id="year-result">-- </span>years</p>
+        <p><span id="month-result">-- </span>months</p>
+        <p><span id="day-result">-- </span>days</p>
       </div>
     </main>
     <script src="index.js"></script>

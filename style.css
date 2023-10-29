@@ -59,6 +59,8 @@ main {
   border: 1px solid var(--Smokey-grey);
   font-size: 32px;
   font-weight: 800;
+  cursor: pointer;
+  padding: 5px;
 }
 
 .form p {
