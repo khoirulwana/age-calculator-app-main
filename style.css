@@ -71,6 +71,20 @@ main {
   color: var(--Light-red);
 }
 
+.error-message,
+.error-message1,
+.error-message2,
+.error-message3 {
+  display: none;
+}
+
+.error-message.active,
+.error-message1.active,
+.error-message2.active,
+.error-message3.active {
+  display: block;
+}
+
 .separator {
   width: 95%;
   display: flex;
