@@ -83,6 +83,7 @@ main {
 .error-message2.active,
 .error-message3.active {
   display: block;
+  margin-bottom: -25px;
 }
 
 .separator {
@@ -92,7 +93,7 @@ main {
   align-items: center;
   flex-direction: row;
   margin-bottom: 60px;
-  margin-top: -40px;
+  margin-top: -5px;
   padding: 10px;
 }
 
@@ -146,9 +147,18 @@ main {
     font-size: 25px;
   }
 
+  .error-message.active,
+  .error-message1.active,
+  .error-message2.active,
+  .error-message3.active {
+    display: block;
+    margin-bottom: 5px;
+  }
+
   .separator {
     flex-direction: column;
-    margin: 10px;
+    width: 97%;
+    margin: 35px auto 5px auto;
   }
 
   .separator .line {
